@@ -1,4 +1,4 @@
-package ro.rainy.jpiano;
+package ro.rainy.jpiano.component;
 
 /**
  * @project: jPiano
