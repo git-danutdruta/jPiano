@@ -1,7 +1,9 @@
 package ro.rainy.jpiano;
 
+import javax.swing.*;
+
 public class Starter {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        SwingUtilities.invokeLater(new Piano()::createAndShowGUI);
     }
 }
