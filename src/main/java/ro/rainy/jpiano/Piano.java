@@ -102,7 +102,7 @@ public class Piano implements MouseListener {
             whites[i].addMouseListener(this);
         }
 
-        JFrame frame = new JFrame("Midi Piano");
+        JFrame frame = new JFrame("jPiano");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.add(new JScrollPane(contentPane));
         frame.pack();
