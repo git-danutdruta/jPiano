@@ -19,7 +19,6 @@ public class WhiteKey extends JButton implements Key {
                 - (pos + 4) / 7
                 - pos / 7;
         int left = 10 + WWD * pos;
-        System.out.println(note);
         setBounds(left, 10, WWD, WHT);
     }
 
